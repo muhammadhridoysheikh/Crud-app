@@ -62,7 +62,7 @@ let createTask = () => {
 
         <span class="option">
             <i onclick="editTask(this)" data-bs-toggle="modal" data-bs-target="#form" class="fas fa-edit"></i>
-            <i onclick="deleteTask(this)createTask()" class="fas fa-trash-alt"></i>
+            <i onclick="deleteTask(this)" class="fas fa-trash-alt"></i>
         </span>
     </div>
 
